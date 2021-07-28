@@ -1,6 +1,6 @@
 {
   "name": "@nodegui/packer",
-  "version": "1.4.0",
+  "version": "1.4.1-patch.0",
   "files": [
     "dist",
     "template",
@@ -19,14 +19,13 @@
   "author": "atulanand94@gmail.com",
   "license": "MIT",
   "devDependencies": {
-    "@nodegui/nodegui": "^0.15.0-alpha-4",
     "@types/fs-extra": "^8.0.0",
     "@types/node": "^13.9.0",
     "@types/plist": "^3.0.2",
     "typescript": "^3.5.3"
   },
   "peerDependencies": {
-    "@nodegui/nodegui": ">=0.15.0"
+    "@nodegui/nodegui": "^0.34.0"
   },
   "dependencies": {
     "@nodegui/artifact-installer": "^1.0.0",
